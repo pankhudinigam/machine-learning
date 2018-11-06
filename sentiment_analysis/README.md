@@ -1,4 +1,4 @@
-READ ME: BTP FINAL CODE1.py:
+READ ME:
 
 Start Reading at the start of main marked by '#main:'
 Library Support Required: nltk, re, pickle, enchant
