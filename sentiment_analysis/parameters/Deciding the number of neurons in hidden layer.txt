@@ -1,0 +1,24 @@
+Given: 
+Vocab Size=74
+Number of samples in training set=76
+
+Hidden layer:
+Number of neurons:
+
+Method1:
+By Master's Theorem:08yf
+sqrt(number of i/p neurons*number of o/p neurons)=sqrt(74*3)=14.899=15
+
+Method2:
+Nh=Ns/(alpha*(Ni+No))
+Ni=Number of input neurons=74
+No=Number of output neurons=3
+Ns=Number of samples in training set=76
+alpha: arbitrary scaling factor usually 2-10=starting with 2
+
+Nh=76/(2*(74+3))=0.49
+
+Method3:
+Average of neurons in i/p and o/p layers=(74+3)/2=38.5=[38,39]
+
+Using Method1 .

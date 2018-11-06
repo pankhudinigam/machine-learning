@@ -1,0 +1,6 @@
+We choose Cost Function as 1/(1+e^(-theta.T * x) because this function is Convex in nature and thus we can expect a global minima instead of many local minimas at regular intervals.
+We can compress the cost function to J(theta) given that y can take only one of the 2 values: 0 or 1
+
+74 14 3
+theta1 i.e. between layers 1 and 2:
+14X75
